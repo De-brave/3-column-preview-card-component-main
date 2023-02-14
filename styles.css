@@ -1,0 +1,160 @@
+
+
+body {
+    /* Styles for the body element */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    /* Styles for the .container class */
+    width: 300px;
+    margin-top: 60px; 
+}
+
+/* Styles for Typography */
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 36px;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    line-height: 1.5em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Styles for Columns */
+.column {
+    padding: 3rem;
+}
+
+.column1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.column2 {
+    background-color:hsl(184, 100%, 22%);
+}
+
+.column3 {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Styles for Buttons */
+button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btncolor1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btncolor2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btncolor3 {
+    color: hsl(179, 100%, 13%);
+}
+
+/* Styles for Buttons Hover */
+.btncolor1:hover {
+    background-color: hsl(31, 63%, 37%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btncolor2:hover {
+    background-color: hsl(184, 58%, 19%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btncolor3:hover {
+    background-color: hsl(178, 50%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+    /* Styles for the .attribution class */
+    text-align: center;
+    color: hsl(178, 50%, 13%);
+    padding: 2rem;
+}
+
+/* Styles for Links */
+a:visited {
+    color: hsl(31, 77%, 52%);
+}
+
+a:hover {
+    color: hsl(184, 100%, 22%);
+}
+
+
+
+ /* CSS rules to apply when screen width is 1440px or greater */
+@media only screen and (min-width: 1440px) {
+    .container {
+        /* Styles for the .container class */
+        width: 900px;
+        height: 500px;
+        display: flex;
+    }
+
+    /* Styles for Buttons */
+    button:hover {
+        border: 2.5px solid hsl(0, 0%, 95%);
+    }
+
+    .btncolor1:hover {
+        background-color: hsl(31, 77%, 52%);
+    }
+    
+    .btncolor2:hover {
+        background-color: hsl(184, 100%, 22%);
+    }
+    
+    .btncolor3:hover {
+        background-color: hsl(179, 100%, 13%);
+    }
+
+    
+    p {
+        /* Styles for Typography */
+        line-height: 1.6em;
+        margin-bottom: 70px;
+    }
+
+    /* Styles for Columns */
+    .column1 {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        
+    }
+    .column3 {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+    }
+    
+  }
