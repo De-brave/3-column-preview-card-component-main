@@ -112,7 +112,7 @@ a:hover {
 
 
  /* CSS rules to apply when screen width is 1440px or greater */
-@media only screen and (min-width: 1440px) {
+@media screen and (min-width: 1080px) {
     .container {
         /* Styles for the .container class */
         width: 900px;
